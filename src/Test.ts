@@ -38,8 +38,12 @@ export class Test {
             this._updateInterface();
         }
 
+        // Log Test Result
+        let total_execution_time = this.units.map(x => x.execution_time).reduce((acc, curr) => acc + curr);
+
         console.log("\x1b[1mResult:\x1b[0m");
-        console.log(`   \x1b[32mSucceeded\x1b[0m: ${this.units_succeeded} | \x1b[31mFailed\x1b[0m: ${this.units_failed} `);
+        console.log(`   \x1b[32mSucceeded\x1b[0m: ${this.units_succeeded} | \x1b[31mFailed\x1b[0m: ${this.units_failed}`);
+        console.log(`   \x1b[34mTotal Test Time\x1b[0m: ${total_execution_time}ms`);
         console.log();
     }
 
