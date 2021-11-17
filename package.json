@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "name": "js-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "keywords": [
+    "tests",
+    "unit-testing"
+  ],
+  "author": "minefled",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^16.11.7",
+    "log-update": "^5.0.0",
+    "typescript": "^4.4.4"
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+
+        "module": "ESNext",
+        //"moduleResolution": "Classic",
+        "moduleResolution": "Node",
+
+        "rootDir": "src",
+        "outDir": "dist",
+
+        "declaration": true
+    }
+}
