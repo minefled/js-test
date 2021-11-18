@@ -4,7 +4,7 @@ A Simple Node Testing Framework
 
 ## Example
 
-![Example Screenshot](https://github.com/minefled/js-test/_assets/example_screenshot.png)
+![Example Screenshot](https://github.com/minefled/js-test/blob/main/_assets/example_screenshot.png?raw=true)
 
 ```javascript
 import Test from "js-test";
