@@ -48,6 +48,6 @@ export class Test {
         this.interface.update();
     }
     get max_unit_name_length() {
-        return Math.min(...this.units.map(x => x.name.length));
+        return Math.max(...this.units.map(x => x.name.length));
     }
 }
