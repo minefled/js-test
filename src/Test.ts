@@ -52,7 +52,7 @@ export class Test {
     }
 
     get max_unit_name_length():number {
-        return Math.min( ...this.units.map(x => x.name.length) );
+        return Math.max( ...this.units.map(x => x.name.length) );
     }
 
 }
